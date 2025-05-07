@@ -11,7 +11,7 @@ import "@aws-amplify/ui-react/styles.css";
 Amplify.configure(outputs);
 
 const client = generateClient<Schema>();
-
+// call function
 export default function App() {
   const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
 
